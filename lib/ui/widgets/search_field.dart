@@ -32,7 +32,6 @@ class _SearchFieldState extends State<SearchField> {
         style: TextStyle(color: Colors.white),
         decoration: InputDecoration(
           hintText: "Search Coins",
-          fillColor: Colors.white,
           border: InputBorder.none,
           hintStyle: TextStyle(fontSize: 20.0, color: Colors.white),
           icon: Icon(

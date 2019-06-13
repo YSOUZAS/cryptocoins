@@ -1,3 +1,4 @@
+import 'package:cryptocoins/pages/index.dart';
 import 'package:cryptocoins/utils/injection_container.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
           brightness: Brightness.light,
           primaryColor: Colors.red.shade600,
           accentColor: Colors.redAccent.shade400),
-      home: null,
+      home: ListPage(),
     );
   }
 }

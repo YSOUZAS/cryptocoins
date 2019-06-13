@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           brightness: Brightness.light,
           backgroundColor: Color(0xFF4527A0),
-          accentColor: Colors.redAccent.shade400),
+          accentColor: Color(0xFF512DA8)),
       home: ListPage(),
     );
   }
